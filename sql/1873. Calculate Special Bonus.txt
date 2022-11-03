@@ -54,3 +54,4 @@ Select employee_id, CASE WHEN (employee_id%2) = 0 OR name LIKE 'M%'
                ELSE salary
           END AS bonus
           From Employees
+          Order By employee_id
